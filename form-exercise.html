@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms-exercise</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+	<p>
+	<label for="Fname">First Name:</label>
+	<input type="text" name="Fname" id="Fname" required="true">
+
+	<label for="Lname">Last Name:</label>
+	<input type="text" name="Lname" id="Lname" required="true">
+	</p>
+
+	<p>
+	<label for="male">Male</label>
+	<input id="male" type="radio" name="gender">
+
+	<label for="female">Female</label>
+	<input id="female" type="radio" name="gender">
+
+	<label for="other">Other</label>
+	<input id="other" type="radio" name="gender">
+	</p>
+
+	<p>
+	<label for="email">Email:</label>
+	<input id="email" type="email" name="email" required="true" placeholder="your email">
+
+	<label for="password">Password:</label>
+	<input id="password" type="password" name="password" minlength="5" maxlength="10">
+	</p>
+
+	<p>Birthday:
+
+		<select name="Month" placeholder="Month">
+			<option value="Month">Month</option>	
+			<option value="January">January</option>	
+			<option value="February">February</option>	
+			<option value="March">March</option>	
+		</select>
+
+		<select name="Day" placeholder="Day">
+			<option value="Day">Day</option>
+			<option value="01">01</option>	
+			<option value="02">02</option>	
+			<option value="03">03</option>	
+		</select>
+
+		<select name="Year" placeholder="Year">
+			<option value="Year">Year</option>	
+			<option value="1987">1987</option>	
+			<option value="1988">1988</option>	
+			<option value="1989">1989</option>	
+		</select>
+	</p>
+	
+	<p>I agree to the terms and conditions
+		<input type="checkbox" name="yes/no">
+	</p>
+
+	<p>
+	<button>Submit</button>
+	</p>
+
+</form>
+
+
+</body>
+</html>
